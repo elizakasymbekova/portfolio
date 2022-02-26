@@ -1,0 +1,43 @@
+:root {
+  --accent: #174180;
+  --accent-light: #3764a7;
+  --pure-white: #fff;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+* *::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Opens Sans", sans-serif;
+  color: var(--accent);
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background-color: var(--accent);
+}
+.header a {
+  color: var(--pure-white);
+  text-decoration: none;
+}
+.header__nav {
+  padding: 15px 0;
+}
+.header__logo {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid black;
+}
+.header__logo img {
+  width: 100%;
+  height: 60px;
+  object-fit: contain;
+}
