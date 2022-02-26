@@ -30,14 +30,37 @@ body {
 }
 .header__nav {
   padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65px;
 }
-.header__logo {
+.header__logo_link {
   display: inline-block;
   width: 20%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
-.header__logo img {
+.header__logo_link img {
   width: 100%;
   height: 60px;
   object-fit: contain;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header__menu_item {
+}
+
+.header__menu__link {
+  padding: 15px 15px;
+  text-transform: uppercase;
+}
+
+.header__menu__link:hover {
+  background-color: var(--accent-light);
 }
