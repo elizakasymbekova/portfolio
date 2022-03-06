@@ -21,6 +21,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
   background-color: var(--accent);
 }
@@ -94,4 +98,16 @@ body {
 .intro-right h1,
 .intro-right h3 {
   margin: 0 0 10px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  flex: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contacts li {
+  text-align: center;
 }
