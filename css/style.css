@@ -16,6 +16,9 @@ body {
   font-family: "Opens Sans", sans-serif;
   color: var(--accent);
 }
+section {
+  padding: 60px 0;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -77,7 +80,9 @@ body {
 
 .intro {
   padding: 4em 0;
+  margin-bottom: 30px;
 }
+
 .intro-inner {
   display: flex;
   justify-content: center;
@@ -110,4 +115,36 @@ body {
 }
 .contacts li {
   text-align: center;
+}
+.skills {
+  background-color: var(--accent);
+  color: var(--pure-white);
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  padding: 10px 15px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.code-example {
+  text-align: center;
+}
+.code-example pre {
+  width: 30%;
+  margin: 0 auto;
+  background-color: var(--accent);
+  color: var(--pure-white);
+  text-align: left;
+  border-radius: 7px;
+  font-size: 1em;
+  line-height: 0.8;
 }
